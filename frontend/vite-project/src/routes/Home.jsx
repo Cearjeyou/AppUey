@@ -1,9 +1,16 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
+import { Outlet, useNavigate } from "react-router-dom";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 
+
 export function Home(){
+    const navigate = useNavigate()
+
+    useEffect(() => {
+        navigate("/categories")
+    }, [])
+    
     return (
         <>
         <header>
