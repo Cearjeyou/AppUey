@@ -16,3 +16,6 @@ Para inicializar la aplicación se deben ejecutar los siguientes comandos:
 Para el desarrollo de la API se utilizó:
 * [GraphQL](https://graphql.org/)
 * [Apollo Server](https://www.apollographql.com/docs/apollo-server/)
+### Inicialización
+Para correr la API se debe ejecutar el siguiente comando:
+* **npm start**
